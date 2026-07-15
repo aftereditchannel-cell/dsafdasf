@@ -1,0 +1,17 @@
+{
+  "name": "smartchat-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ویجت چت هوشمند قابل فروش به سایت‌ها — متصل به Gemini با استخراج خودکار اطلاعات سایت",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2"
+  }
+}
